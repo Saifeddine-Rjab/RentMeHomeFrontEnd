@@ -1,0 +1,15 @@
+<div class="container"
+     fxLayout="column"
+     fxLayoutGap="10px">
+
+  <mat-list fxFlex>
+    <mat-list-item *ngFor="let accommodation of accommodations">
+      <img matListAvatar src='../../assets/images/house.png' alt='dish.name'>
+      <h1 matLine> {{accommodation.city}} </h1>
+      <p matLine>
+        <span> {{accommodation.desc}} </span>
+      </p>
+    </mat-list-item>
+  </mat-list>
+
+</div>
