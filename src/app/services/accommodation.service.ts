@@ -11,4 +11,7 @@ export class AccommodationService {
   getAccommodations(): Accommodation[]{
     return ACCOMMODATIONS;
   }
+  getAccommodation(id: string): Accommodation {
+    return ACCOMMODATIONS.filter((accommodation) => (accommodation.id === id))[0];
+  }
 }

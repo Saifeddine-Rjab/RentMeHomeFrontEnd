@@ -6,7 +6,7 @@
 
   <div fxFlex *ngIf="accommodations"  [@expand]>
     <mat-grid-list cols="3" rowHeight="200px">
-      <mat-grid-tile *ngFor="let accommodation of accommodations"  appHighlight (click) = "onSelect(accommodation)">
+      <mat-grid-tile *ngFor="let accommodation of accommodations"  appHighlight (click) = "onSelect(accommodation)" [routerLink]="['/accommodationDetails', accommodation.id]">
         <img height="300px"   src= "{{ BaseURL + accommodation.images[0]}}" alt={{accommodation.description}}>
         <mat-grid-tile-footer>
           <h1>{{ accommodation.title}}</h1>
@@ -24,6 +24,5 @@
     <h4>{{errMess}}</h4>
   </div>
 
-  <app-accommodation-details [accommodation]="selectedAccommodation"></app-accommodation-details>
 
 </div>

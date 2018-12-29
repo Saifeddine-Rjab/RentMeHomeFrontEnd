@@ -23,21 +23,22 @@
       <mat-card-actions>
         <button mat-button>LIKE</button>
         <button mat-button>SHARE</button>
+        <button mat-button (click)="goBack()">BACK</button>
       </mat-card-actions>
     </mat-card>
     
   </div>
 
   <div fxFlex="40">
-      <h1>Comments</h1>
+    <mat-list>
      
-              
-              <mat-list *ngFor="let com of accommodation.comments">
-                  <mat-list-item role="listitem"><h6>{{com.comment}}</h6></mat-list-item>
-                  <mat-list-item role="listitem"><h6>{{com.rating}} stars</h6></mat-list-item>
-                  <mat-list-item role="listitem"><h6>{{com.author}} {{com.date }}</h6></mat-list-item>
-              </mat-list>
-  
+      <h3>Comments</h3>
+      <mat-list-item *ngFor="let com of accommodation.comments">
+          <h4 matLine>{{com.comment}}</h4>
+          <h4 matLine>{{com.rating}} stars</h4>
+          <h4 matLine>{{com.author}} {{com.date}}</h4>  
+      </mat-list-item>
+    </mat-list>
         
     </div>
 
