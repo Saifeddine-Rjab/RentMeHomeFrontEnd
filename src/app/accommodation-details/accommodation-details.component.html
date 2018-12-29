@@ -1,0 +1,44 @@
+  <div class="container"
+    fxLayout="row"
+    fxLayout.sm="column"
+    fxLayout.xs="column"
+    fxLayoutAlign.gt-md="space-around center"
+    fxLayoutGap="10px" 
+    fxLayoutGap.xs="0"
+    *ngIf="accommodation" 
+    >
+
+  <div fxFlex="40" >
+    <mat-card>
+      <mat-card-header>
+        <mat-card-title>
+          <h3>{{accommodation.title | uppercase}}</h3>
+        </mat-card-title>
+      </mat-card-header>
+      <img mat-card-image src="{{BaseURL+accommodation.images[0]}}" alt={{accommodation.title}}>
+      <mat-card-content>
+        <p>{{accommodation.description}}
+        </p>
+      </mat-card-content>
+      <mat-card-actions>
+        <button mat-button>LIKE</button>
+        <button mat-button>SHARE</button>
+      </mat-card-actions>
+    </mat-card>
+    
+  </div>
+
+  <div fxFlex="40">
+      <h1>Comments</h1>
+     
+              
+              <mat-list *ngFor="let com of accommodation.comments">
+                  <mat-list-item role="listitem"><h6>{{com.comment}}</h6></mat-list-item>
+                  <mat-list-item role="listitem"><h6>{{com.rating}} stars</h6></mat-list-item>
+                  <mat-list-item role="listitem"><h6>{{com.author}} {{com.date }}</h6></mat-list-item>
+              </mat-list>
+  
+        
+    </div>
+
+</div>

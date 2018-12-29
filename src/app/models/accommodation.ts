@@ -1,4 +1,4 @@
-
+import {Comment} from './comment';
 export class Accommodation{
     id: String;
     city: String;
@@ -7,4 +7,6 @@ export class Accommodation{
     furnished: boolean;
     images: String[];
     description: String;
+    title: String;
+    comments: Comment[];
 }
