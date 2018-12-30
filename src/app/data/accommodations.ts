@@ -7,7 +7,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
     numberOfRooms:3,
     furnished: true,
     images: ['house.png','house3.jpg'],
-    description: 'desc'  ,
+    description:  `l'agence anas imlmobilier vous propose à louer
+                   dans la cité ONS Sakiet Ezzit
+                   un appartement meublé composé d'un grand salon, une chambre cuisine et salle d'eau`,
     title: 'Appartement s+2 meublé',
     comments: [
       { rating :4,
@@ -16,36 +18,27 @@ export const ACCOMMODATIONS :Accommodation[] = [
         date: '17/03/2018'
       },
       {
-        rating: 5,
-        comment: 'Imagine all the eatables, living in conFusion!',
-        author: 'John Lemon',
-        date: '2012-10-16T17:57:28.556094Z'
+        rating :4,
+        comment: 'Good house',
+        author: 'Ahmed ben Mouhamed',
+        date: '17/03/2018'
     },
     {
-        rating: 4,
-        comment: 'Sends anyone to heaven, I wish I could get my mother-in-law to eat it!',
-        author: 'Paul McVites',
-        date: '2014-09-05T17:57:28.556094Z'
+      rating :4,
+      comment: 'Good house',
+      author: 'Ahmed ben Mouhamed',
+      date: '17/03/2018'
     },
     {
-        rating: 3,
-        comment: 'Eat it, just eat it!',
-        author: 'Michael Jaikishan',
-        date: '2015-02-13T17:57:28.556094Z'
-    },
-    {
-        rating: 4,
-        comment: 'Ultimate, Reaching for the stars!',
-        author: 'Ringo Starry',
-        date: '2013-12-02T17:57:28.556094Z'
-    },
-    {
-        rating: 2,
-        comment: 'It\'s your birthday, we\'re gonna party!',
-        author: '25 Cent',
-        date: '2011-12-02T17:57:28.556094Z'
+      rating :4,
+      comment: 'Good house',
+      author: 'Ahmed ben Mouhamed',
+      date: '17/03/2018'
     }
-    ]
+    ],
+    numberOfLikes:15,
+    numberOfDisLikes:3,
+    price:320
     },
     {id:'2',
     city:'Ons',
@@ -53,7 +46,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
     numberOfRooms:3,
     furnished: true,
     images: ['house3.jpg','im2'],
-    description: 'desc',
+    description:  `l'agence anas imlmobilier vous propose à louer
+                   dans la cité ONS Sakiet Ezzit
+                   un appartement meublé composé d'un grand salon, une chambre cuisine et salle d'eau`,
     title: 'Une Maison bien meublée à 100m de l enetcom',
     comments: [
       { rating :4,
@@ -61,7 +56,10 @@ export const ACCOMMODATIONS :Accommodation[] = [
         author: 'Ahmed ben Mouhamed',
         date: '17/03/2018'
       }
-    ]
+    ],
+    numberOfLikes:15,
+    numberOfDisLikes:3,
+    price:320
     },
     {id:'2',
     city:'Ons',
@@ -69,7 +67,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
     numberOfRooms:3,
     furnished: true,
     images: ['house5.jpg','im2'],
-    description: 'desc',
+    description:  `l'agence anas imlmobilier vous propose à louer
+                   dans la cité ONS Sakiet Ezzit
+                   un appartement meublé composé d'un grand salon, une chambre cuisine et salle d'eau`,
     title: 'Une Maison bien meublée à 100m de l enetcom',
     comments: [
       { rating :4,
@@ -77,7 +77,10 @@ export const ACCOMMODATIONS :Accommodation[] = [
         author: 'Ahmed ben Mouhamed',
         date: '17/03/2018'
       }
-    ]
+    ],
+    numberOfLikes:15,
+    numberOfDisLikes:3,
+    price:320
     },
     {id:'2',
     city:'Ons',
@@ -85,7 +88,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
     numberOfRooms:3,
     furnished: true,
     images: ['house4.jpg','im2'],
-    description: 'desc',
+    description:  `l'agence anas imlmobilier vous propose à louer
+                   dans la cité ONS Sakiet Ezzit
+                   un appartement meublé composé d'un grand salon, une chambre cuisine et salle d'eau`,
     title: 'Une Maison bien meublée à 100m de l enetcom',
     comments: [
       { rating :4,
@@ -93,7 +98,10 @@ export const ACCOMMODATIONS :Accommodation[] = [
         author: 'Ahmed ben Mouhamed',
         date: '17/03/2018'
       }
-    ]
+    ],
+    numberOfLikes:15,
+    numberOfDisLikes:3,
+    price:320
     },
     {id:'2',
     city:'Ons',
@@ -101,7 +109,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
     numberOfRooms:3,
     furnished: true,
     images: ['house6.png','im2'],
-    description: 'desc',
+    description:  `l'agence anas imlmobilier vous propose à louer
+                   dans la cité ONS Sakiet Ezzit
+                   un appartement meublé composé d'un grand salon, une chambre cuisine et salle d'eau`,
     title: 'Une Maison bien meublée à 100m de l enetcom',
     comments: [
       { rating :4,
@@ -109,6 +119,9 @@ export const ACCOMMODATIONS :Accommodation[] = [
         author: 'Ahmed ben Mouhamed',
         date: '17/03/2018'
       }
-    ]
+    ],
+    numberOfLikes:15,
+    numberOfDisLikes:3,
+    price:320
     }
   ]

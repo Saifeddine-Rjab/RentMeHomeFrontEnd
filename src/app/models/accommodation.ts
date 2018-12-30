@@ -9,4 +9,7 @@ export class Accommodation{
     description: String;
     title: String;
     comments: Comment[];
+    numberOfLikes;
+    numberOfDisLikes;
+    price:number;
 }
